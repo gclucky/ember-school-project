@@ -1,0 +1,27 @@
+@import url('food-list.css');
+#explanation {
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.flex-item {
+  padding: 20px;
+}
+
+.medium-text-area {
+  height: 50px;
+  width: 300px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
