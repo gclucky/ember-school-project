@@ -6,7 +6,7 @@
 <p>
   Image URL: {{input value=model.imageUrl}}
 </p>
-<img src={{model.imageUrl}} class="img-icon" />
+{{icon-image model.imageUrl}}
 <p>Type of Food (if applicatble): {{input type='checkbox' checked=model.typeOfFood}}</p>
 <p>
     {{#if model.typeOfFood true }}

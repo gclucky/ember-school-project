@@ -1,3 +1,16 @@
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+
 
 .not-available a {
    color: #BBB;
@@ -9,10 +22,14 @@
 .food-item {
 
   border: 1px solid black;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: rgba(0, 0, 0, 0.0784314) 2px 2px 0px 1px;
   border-radius: 5px;
   min-width: 250px;
-  padding: 4px;
-  margin: 5px;
+  margin: 5px 0px 10px 14px;
+  outline: rgb(102, 102, 102) none 0px;
+  padding: 12px 15px;
 }
 
 .food-item .title-bar {

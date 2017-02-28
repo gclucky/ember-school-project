@@ -1,3 +1,11 @@
-<p>
-   Thanks for {{pageName}} visiting us.
-</p>
+<div class="email-status">
+   <p>
+     Thanks for visiting the {{pageName}} page. You can e-mail me at abc@yahoo.com
+   </p>
+   {{yield}}
+   <!-- {{#if hasBlock}}
+   <p>You are using a block component.</p>
+   {{else}}
+    <p>You are not using a block component.</p>
+    {{/if}} -->
+</div>

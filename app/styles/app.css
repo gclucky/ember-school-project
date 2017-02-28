@@ -25,3 +25,31 @@
 .pull-left {
   float: left;
 }
+
+.email-status {
+  border: 1px black solid ;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#P_1 {
+    box-shadow: rgba(0, 0, 0, 0.0784314) 2px 2px 0px 1px;
+    box-sizing: border-box;
+    color: rgb(102, 102, 102);
+    height: 110px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 746px;
+    column-rule-color: rgb(102, 102, 102);
+    perspective-origin: 373px 55px;
+    transform-origin: 373px 55px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px 4px 4px 4px;
+    font: normal normal normal normal 13px / 28px "Open Sans", sans-serif;
+    list-style: none outside none;
+    margin: 5px 0px 10px 14px;
+    outline: rgb(102, 102, 102) none 0px;
+    padding: 12px 15px;
+}/*#P_1*/
